@@ -31,6 +31,10 @@
     .profile_card {
         width: calc(50% - 1em);
     }
+
+    .certificacion {
+        width: calc(50% - 1em);
+    }
 }
 
 @media (width < 760px) {
@@ -47,6 +51,14 @@
 
     .home_image {
         width: 100%;
+    }
+
+    .certificacion {
+        width: 100%;
+    }
+
+    .certificaciones_flex {
+        justify-content: center;
     }
 }
 

@@ -286,6 +286,56 @@ span {
 }
 
 
+/* CERTIFIACACIONES */
+.certificaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding-bottom: 180px;
+}
+
+.certificaciones_title {
+    font-family: var(--fontFamilyTitle);
+    font-size: var(--fontSizeTitle);
+    text-align: center;
+}
+
+.certificaciones_flex {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.certificacion {
+    width: calc(33% - 1em);
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-bottom: 3em;
+    justify-content: center;
+}
+
+.certificacion_img {
+    width: 100%;
+}
+
+.certificacion_title {
+    font-family: var(--fontFamilyTitle);
+    font-size: var(--fontSizeParraf);
+    text-align: center;
+}
+
+.certificacion_zone {
+    text-align: center;
+    color: var(--colorEnfasis);
+}
+
+.certificacion_date {
+    text-align: center;
+}
+
+
 
 /* TESTIMONIOS */
 .testimonios {
