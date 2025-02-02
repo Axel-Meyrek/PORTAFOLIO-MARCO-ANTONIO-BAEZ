@@ -33,6 +33,12 @@
     }
 }
 
+@media (width < 760px) {
+    .testimonios_card {
+        width: 100%;
+    }
+}
+
 @media (width < 680px) {
     .home_containerImage {
         max-width: 390px;

@@ -14,7 +14,7 @@
     --fontSizeSubtitle: clamp(1.125rem, 1rem + 0.6666666666666666vw, 1.5rem);
     --fontSizeParraf: clamp(0.875rem, 0.8333333333333334rem + 0.2222222222222222vw, 1rem);
 
-    --gapGlobal: 1.5em;
+    --gapGlobal: 1em;
 
     --fontBold: 800;
     --fontRegular: 400;
@@ -309,6 +309,7 @@ span {
     display: flex;
     gap: var(--gapGlobal);
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .testimonios_card {
@@ -316,12 +317,17 @@ span {
     border: 1px solid var(--colorEnfasis);
     box-shadow: var(--shadowComponent);
     border-radius: var(--borderRadiosLarge);
-    width: calc(33% - 1em);
+    width: calc(50% - 1em);
     display: flex;
     flex-direction: column;
     gap: 1em;
+    background-color: var(--colorBackground);
 }
 
 .testimonios_card i {
     color: var(--colorEnfasis);
+}
+
+.testimonios_message, .testimonios_name, .testimonios_puesto{
+    font-size: var(--fontSizeParraf);
 }
