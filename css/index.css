@@ -331,3 +331,40 @@ span {
 .testimonios_message, .testimonios_name, .testimonios_puesto{
     font-size: var(--fontSizeParraf);
 }
+
+
+
+/* FOOTER */
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    background-color: var(--colorBackgroundLigth);
+    padding: 4.5em 0;
+}
+
+.footer_description{
+    color: var(--white);
+    max-width: 400px;
+    text-align: center;
+    color: var(--white);
+}
+
+.footer_redes{
+    display: flex;
+    gap: 2em;
+}
+
+.iconRedes{
+    font-size: 1.8rem;
+    transition-duration: .3s;
+    transition-property: scale;
+    color: var(--white);
+}
+
+.iconRedes:hover{
+    scale: 1.2;
+}
