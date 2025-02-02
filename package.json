@@ -1,0 +1,11 @@
+{
+  "name": "portafolio-marco-antonio-baez",
+  "version": "1.0.0",
+  "description": "Portafolio de trabajo del comandante Marco Antonio Baez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Meyrek",
+  "license": "ISC"
+}
