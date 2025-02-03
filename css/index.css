@@ -296,6 +296,11 @@ section {
     color: var(--colorEnfasis);
 }
 
+.experiencia_time {
+    color: var(--colodSecundaryText);
+    font-size: var(--fontSizeParraf);
+}
+
 
 /* CERTIFIACACIONES */
 .certificaciones {
@@ -341,9 +346,6 @@ section {
     color: var(--colorEnfasis);
 }
 
-.certificacion_date {
-    text-align: center;
-}
 
 
 
