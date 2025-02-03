@@ -17,7 +17,6 @@
     .home {
         flex-direction: column;
         gap: 3em;
-        margin-top: 60px;
     }
 
     .home_container {
