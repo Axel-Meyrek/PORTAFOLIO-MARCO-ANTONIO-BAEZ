@@ -89,11 +89,12 @@ section {
     gap: var(--gapGlobal);
     padding: 1em 1.5em;
     box-shadow: var(--shadowComponent);
-    background-color: var(--colorBackground);
+    background-color: #131823b7;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    backdrop-filter: blur(4px);
 }
 
 .navegacion_title {
