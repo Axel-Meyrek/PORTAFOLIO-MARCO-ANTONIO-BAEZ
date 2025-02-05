@@ -173,7 +173,7 @@ section {
 
 .home_button {
     text-align: center;
-    padding: .5em 1em;
+    padding: 1em;
     background-color: var(--colorEnfasis);
     border-radius: var(--borderRadiusSmall);
     box-shadow: var(--shadowButton);
