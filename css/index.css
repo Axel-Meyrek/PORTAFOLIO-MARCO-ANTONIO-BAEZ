@@ -329,10 +329,13 @@ section {
     gap: .5em;
     margin-bottom: 3em;
     justify-content: center;
+    align-items: center;
 }
 
 .certificacion_img {
     width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.467);
+    max-width: 200px;
 }
 
 .certificacion_title {
@@ -344,6 +347,23 @@ section {
 .certificacion_zone {
     text-align: center;
     color: var(--colorEnfasis);
+}
+
+.certificaciones_button {
+    background-color: var(--colorEnfasis);
+    width: 80%;
+    max-width: 500px;
+    color: var(--coloWhite);
+    text-align: center;
+    padding: 1em;
+    border-radius: var(--borderRadiusSmall);
+    margin: auto;
+    transition-duration: .5s;
+    transition-property: scale;
+}
+
+.certificaciones_button:hover {
+    scale: 1.1;
 }
 
 
