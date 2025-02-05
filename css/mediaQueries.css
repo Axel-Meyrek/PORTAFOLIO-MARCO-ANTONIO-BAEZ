@@ -15,6 +15,10 @@
         text-align: center;
     }
 
+    .navegacion {
+        justify-content: center;
+    }
+
     .navegacion_contenedor {
         display: none;
     }
@@ -50,7 +54,6 @@
 
 @media (width < 680px) {
     .home_containerImage {
-        max-width: 390px;
         width: 100%;
     }
 
