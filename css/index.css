@@ -199,12 +199,17 @@ section {
     justify-content: center;
     align-items: center;
     max-width: 500px;
-    width: 70%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-radius: var(--borderRadiusSmall);
+    animation: changePhoto 12s ease-in-out infinite;
+    box-shadow: 5px 5px 20px #3c83f676;
 }
 
 .home_image {
     width: 100%;
-    box-shadow: 5px 5px 20px #3c83f6b5;
 }
 
 /* PROFILE */
@@ -454,4 +459,21 @@ section {
 
 .iconRedes:hover{
     scale: 1.2;
+}
+
+
+@keyframes changePhoto {
+    0% {
+        background-image: url(../img/profile1.webp);
+    }
+    50% {
+        background-image: url(../img/profile2.webp);
+    }
+    80% {
+        background-image: url(../img/profile3.webp);
+    }
+
+    100% {
+        background-image: url(../img/profile1.webp);
+    }
 }
